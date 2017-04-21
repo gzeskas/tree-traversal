@@ -9,7 +9,7 @@ import lt.gzeska.traverse.RecursiveNodesTraversal;
 /**
  * Created by lt.gzeska on 20/04/2017.
  */
-public class Main {
+public class Example {
 
     public static void main(String[] args) {
         Printer print = new SystemOutPrinter();

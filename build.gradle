@@ -3,6 +3,7 @@ version '1.0-SNAPSHOT'
 
 apply plugin: 'java'
 apply plugin: 'groovy'
+apply plugin: 'application'
 
 sourceCompatibility = 1.8
 
@@ -21,6 +22,8 @@ test {
         info.events = ["failed", "skipped"]
     }
 }
+
+mainClassName = "lt.gzeska.Example"
 
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
